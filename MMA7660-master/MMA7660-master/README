@@ -1,0 +1,14 @@
+MMA7660FC Library
+by Ronald Schmid <schmron+dev@gmail.com>
+Created 18 May 2012
+Version 0.0.1
+
+Control MMA7660 I2C Accelerometer
+
+Routines:
+uint8_t isPresent(void);
+uint8_t init(void);
+void getValues(void);
+uint8_t x;
+uint8_t y;
+uint8_t z;
